@@ -3,7 +3,7 @@ class AthenzUtils < Formula
   homepage "https://github.com/yahoo/athenz/tree/master/utils"
   url "https://bintray.com/yahoo/maven/download_file?file_path=com%2Fyahoo%2Fathenz%2Fathenz-utils%2F1.7.45%2Fathenz-utils-1.7.45-bin.tar.gz"
   version "1.7.45"
-  sha256 "bd8805426ebc2710a7340145c6d5bea3c22a209b39d122ee9b327e655253a229"
+  sha256 "6e59dcb2315133f43cde70b953d814ff7e546a9144f0155b76410b5c8f52ecc3"
 
   def install
     bin.install "bin/darwin/athenz-conf" => "athenz-conf"
